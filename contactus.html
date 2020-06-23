@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            contact us
+         </title>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="contactus.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+              <div class="header-left">
+                  <a href="landingpage.html" style="color: aliceblue;text-decoration: none;"> <img class="logo"  src="" alt="Logo"></a>
+        
+              </div>
+              
+            </div>
+          </header>
+                    <div class="background">
+                        <div class="top-wrapper">
+                        <div id="map"></div>
+
+                        <div class="container">
+                          <h1>Contact us</h1>
+                          <p>Be bold, be courageous, be your best</p>
+                        </div>
+                      </div>
+                      <div class="content">
+                          <p>TaxHeal.in (a unit of Smilyo Private Limited) started as an ERP 
+                            solution provider in 2016, now serving clients across 18 different
+                            industries including manufacturers, traders, wholesalers, shops,
+                            contractors, housekeeping, security, builders, logistics, schools,
+                            hospitals, chemists, resturants, hotels, professionals, software, 
+                            finance and chit-fund companies.
+
+                            Proudly associated with a 30 years old Chartered Accountants firm 
+                            for expertise and professional solutions, our primary focus is client 
+                            satisfaction and peace of mind.
+                            TaxHeal.in (a unit of Smilyo Private Limited) started as an ERP 
+                            solution provider in 2016, now serving clients across 18 different
+                            industries including manufacturers, traders, wholesalers, shops,
+                            contractors, housekeeping, security, builders, logistics, schools,
+                            hospitals, chemists, resturants, hotels, professionals, software, 
+                            finance and chit-fund companies.
+
+                            Proudly associated with a 30 years old Chartered Accountants firm 
+                            for expertise and professional solutions, our primary focus is client 
+                            satisfaction and peace of mind.
+                            
+                          </p>
+                          
+                          
+                    
+                      </div>
+                      <div style="margin-left: 10%; float: left;">
+                          <i class="fa fa-envelope-o" aria-hidden="true">Mail</i>
+                          <p >taxhealin@gmail.com</p>
+                      </div>
+                      <div style="margin-left: 10%; float: left;">
+                          <i class="fa fa-address-card-o" aria-hidden="true">Address</i>
+                          <p >404, 4th-Floor, 93 Ashok Bhawan, Nehru Place, Delhi - 110019</p>
+                      </div>
+                      <div style="margin-left: 10%; float: left;">
+                          <i class="fa fa-phone" aria-hidden="true">Call us</i>
+                          <p >+91-7428701901</p>
+                      </div>
+                      
+                    
+                      </div>
+    <script>
+                         
+        function initMap() {
+                           
+        var delhi = {lat: 28.7041, lng: 77.1025};
+                          
+        var map = new google.maps.Map(
+          document.getElementById('map'), {zoom: 5, center: delhi});
+                            
+          var marker = new google.maps.Marker({position: delhi, map: map});
+                          }
+     </script>
+     <script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8Yj-KqnPDz6ZEanH4EZMaW-WOUi3dxNQ&callback=initMap">
+     </script>
+                                 
+                    
+                    
+    </body>
+</html>

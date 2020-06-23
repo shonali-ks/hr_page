@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TaxHeal</title>
+  <link rel="stylesheet" type="text/css" href="apply.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body >
+  <header>
+    <div class="container">
+      <div class="header-left">
+          <a href="landingpage.html" style="color: aliceblue;text-decoration: none;"> <img class="logo"  src="" alt="Logo"></a>
+
+      </div>
+      
+    </div>
+  </header>
+  <div class="form" >
+      <form action="apply.php" method="POST">
+          <div class="col-xs-4">
+        <label>First Name:</label><br>
+        <input type="text" class="form-control" name="first_name" required><br>
+        <label>Last Name:</label><br>
+        <input type="text" class="form-control" name="last_name" required><br><br>
+        <label>Age</label><br>
+        <input type="number" class="form-control" name="age" required><br>
+        <p>Please select your gender:</p>
+        <input type="radio"  id="male" name="gender" value="male" checked>
+        <label for="male">Male</label><br>
+        <input type="radio"  id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio"   id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+        <label>Phone no:</label><br>
+        <input type="text" class="form-control"  name="phone" required><br>
+        <label>Email</label><br>
+        <input type="text" class="form-control" name="email" required><br>
+        <label>School Name(where you did your 10th grade):</label><br>
+        <input type="text" class="form-control" name="School" required><br>
+        <label>10th grade marks(%):</label><br>
+        <input type="number" class="form-control" name="tenth" required><br>
+        <label>PU collge Name(where you did your 12th grade):</label><br>
+        <input type="text" class="form-control" name="pu" required><br>
+        <label>12th grade marks(%):</label><br>
+        <input type="number" class="form-control" name="pumarks" required><br>
+        <label>University(UG):</label><br>
+        <input type="text" class="form-control" name="ug" required><br>
+        <label>Current grade marks(%):</label><br>
+        <input type="number" class="form-control" name="uggrade" required><br>
+        <label>University(PG) if applicable:</label><br>
+        <input type="text" class="form-control" name="pg" ><br>
+        <label>Current grade marks(%):</label><br>
+        <input type="number" class="form-control" name="pggrade" ><br>
+        <p>Please select your field:</p>
+        <input type="radio"  id="web" name="feild" value="Web development" checked >
+        <label for="web">Web development</label><br>
+        <input type="radio"  id="app" name="feild" value="App development" >
+        <label for="app">App development</label><br>
+        <input type="radio"  id="data" name="feild" value="Data analyst" >
+        <label for="data">Data analyst</label><br>
+        <input type="radio"  id="ca" name="feild" value="C.A" >
+        <label for="ca">C.A</label><br>
+        <input type="radio"  id="bd" name="feild" value="Business dev" >
+        <label for="bd">Business dev</label><br>
+        <p>Why should we hire you?</p>
+        <textarea class="form-control" rows="5" name="why" required></textarea>
+        <p>Have you had any previous experience in the field?</p>
+        <textarea class="form-control" rows="5" name="experience" required></textarea>
+        <p>Brief us about what you know about our company and how you can help us</p>
+        <textarea class="form-control" rows="5" name="about" required></textarea>
+        <p>Mention briefly one best project ou have done</p>
+        <textarea class="form-control" rows="5" name="project" required></textarea>
+        <p>What other than your field are you good at</p>
+        <textarea class="form-control" rows="5" name="goodat" required></textarea> 
+        <p>Are you ready to work remotely if yes can you work for 2 months?</p>
+        <textarea class="form-control" rows="5" name="long" required></textarea>               
+        <button type="submit" class="btn btn-outline-primary">Submit</button>
+
+
+
+          </div>
+      </form>
+
+  </div>
+
+  
+  
+  
+</body>
+</html>
